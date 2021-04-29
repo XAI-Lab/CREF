@@ -10,13 +10,13 @@ CREF includes:
 
 _____________________________________________________________________________________________________________________________________
 
-*The dataset can be downloaded using the following link: [Download]()*
+*The dataset can be downloaded using the following link: [Download](https://doi.org/10.7910/DVN/W4FPPN)*
 
 
 Dataset
 -------
 The dataset includes 4 anomalous version for 4 digital circuit: C17, 74182, 74183 and 74181. 
-Each anomalous version appear with a varying amount of attrib
+Each anomalous version appear with a varying amount of attribute noise: 2, 4 and 6 added noise features.
 
 
 Ground truth explanations
