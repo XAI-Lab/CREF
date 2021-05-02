@@ -78,9 +78,10 @@ ________________________________________________________________________________
 
 Follow the comments in the *ExplainAnomalies* main file for the adjustments that can be done to change any of the above components.
 
-<br/>
 
 _____________________________________________________________________________________________________________________________________
+
+<br/>
 
 ## References
 <a id="1">[1]</a> 
