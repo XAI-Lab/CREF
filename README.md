@@ -81,8 +81,8 @@ ________________________________________________________________________________
 ## References
 <a id="1">[1]</a> 
 Bryan, David. (1985). 
-The ISCAS '85 benchmark circuits and netlist format directory.
-[original benchmark:](https://people.engr.ncsu.edu/brglez/CBL/benchmarks/ISCAS85)
+The ISCAS '85 benchmark circuits and netlist format directory:
+[Original benchmark](https://people.engr.ncsu.edu/brglez/CBL/benchmarks/ISCAS85)
 
 <a id="2">[2]</a> 
 Lundberg, Scott, and Su-In Lee. "A unified approach to interpreting model predictions." arXiv preprint arXiv:1705.07874 (2017).
