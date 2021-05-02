@@ -25,11 +25,14 @@ The dataset includes 2 folders:
 In addition, each anomalous version was padded with a varying amount of attribute noise (2, 4 and 6 noise features). 
 The folder includes a truth table for both the original and the anomalous versions, with noise and without noise. The truth tables serve as binary tabular data.
 Overall, there are 64 anomalous truth tables with labels and 16 original truth tables.
+
 For example:
   * ```c17_modified_z4_from_nand2_to_and2_0noise_in_labeled.csv``` - a labeled truth table with anomalies of circuit c17 after negating gate z4, with no noise added.
   * ```c17_0noise_out.csv```- the original truth table of circuit c17
+  * 
 
 2. :file_folder: **Ground_Truth**: Each truth table has a respective file of local ground truth explanations. The folder also includes a global ground truth explanation for each circuit. 
+
 For example:
   * ```c17_modified_z4_nand2_to_and2_ground_truth_0noise.csv``` - a file with the local ground truth explanations for every anomaly in the respective truth table.
   * ```c17_global_explanation.csv``` - a file with the global ground truth explanation for circuit c17.
@@ -41,6 +44,7 @@ The Truth_Tabels and Ground_Truth files are divided into subfolders of each circ
 -------
 A **local** ground truth explanation is the reason why a model returned a certain prediction for a specific instance. 
 Such an explanation may be represented as the set of features that led the model to make that prediction. 
+
 A **global** ground truth explanation provides an explanation for the entire system's behavior.
 The ground truth explanations can enable the evaluating the correctness and robustness of explanations produced by an explanation method, as proposed by this framework.
 
@@ -49,9 +53,11 @@ The ground truth explanations can enable the evaluating the correctness and robu
 ------------
 The proposed ground truth based framework aims to enable users to evaluate explanations produced by explanation methods using correctness and robustness metrics.
 The framework, in its current settings, allow detecting anomalies with an autoencoder based anomaly detector, and then explain the anomalies using three common model-agnostic explanation methods:
+
   * ```Kernel SHAP``` [[2]](#2)
   * ```Sampling SHAP``` [[2]](#2)
   * ```LIME``` [[3]](#3)
+  * 
 The local explanations can be evaluated for correctness and robustness using several metrics (including MRR, MAP, R-precision, accuracy etc.), which are calculated by comparing the explanations to the ground truth explnations.
 
 _____________________________________________________________________________________________________________________________________
