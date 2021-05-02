@@ -29,6 +29,7 @@ Overall, there are 64 anomalous truth tables with labels and 16 original truth t
   * ```c17_modified_z4_from_nand2_to_and2_0noise_in_labeled.csv``` - a labeled truth table with anomalies of circuit c17 after negating gate z4, with no noise added.
   * ```c17_0noise_out.csv```- the original truth table of circuit c17
 
+<br/>
 
 2. :file_folder: **Ground_Truth**: Each truth table has a respective file of local ground truth explanations. The folder also includes a global ground truth explanation for each circuit. 
   For example:
@@ -37,7 +38,7 @@ Overall, there are 64 anomalous truth tables with labels and 16 original truth t
 
 The Truth_Tabels and Ground_Truth files are divided into subfolders of each circuit. 
 
-&nbsp  
+<br/><br/> 
 
 :detective: Ground truth explanations
 -------
@@ -47,7 +48,7 @@ Such an explanation may be represented as the set of features that led the model
 A **global** ground truth explanation provides an explanation for the entire system's behavior.
 The ground truth explanations can enable the evaluating the correctness and robustness of explanations produced by an explanation method, as proposed by this framework.
 
-&nbsp  
+<br/><br/> 
 
 :mag_right: Evaluate local explanations
 ------------
@@ -60,10 +61,10 @@ The framework, in its current settings, allow detecting anomalies with an autoen
   
 The local explanations can be evaluated for correctness and robustness using several metrics (including MRR, MAP, R-precision, accuracy etc.), which are calculated by comparing the explanations to the ground truth explnations.
 
-&nbsp  
+<br/><br/>  
 _____________________________________________________________________________________________________________________________________
 
-&nbsp  
+<br/><br/>  
 
 :receipt: Usage
 ------------------
@@ -78,7 +79,7 @@ ________________________________________________________________________________
 
 Follow the comments in the *ExplainAnomalies* main file for the adjustments that can be done to change any of the above components.
 
-&nbsp  
+<br/><br/>
 
 _____________________________________________________________________________________________________________________________________
 
