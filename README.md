@@ -62,7 +62,6 @@ The framework, in its current settings, allow detecting anomalies with an autoen
 The local explanations can be evaluated for correctness and robustness using several metrics (including MRR, MAP, R-precision, accuracy etc.), which are calculated by comparing the explanations to the ground truth explnations.
 
 
-_____________________________________________________________________________________________________________________________________
 <br/>  
 
 :receipt: Usage
@@ -78,8 +77,6 @@ ________________________________________________________________________________
 
 Follow the comments in the *ExplainAnomalies* main file for the adjustments that can be done to change any of the above components.
 
-
-_____________________________________________________________________________________________________________________________________
 
 <br/>
 
