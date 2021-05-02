@@ -25,13 +25,11 @@ The dataset includes 2 folders:
 In addition, each anomalous version was padded with a varying amount of attribute noise (2, 4 and 6 noise features). 
 The folder includes a truth table for both the original and the anomalous versions, with noise and without noise. The truth tables serve as binary tabular data.
 Overall, there are 64 anomalous truth tables with labels and 16 original truth tables.
-
   For example:
   * ```c17_modified_z4_from_nand2_to_and2_0noise_in_labeled.csv``` - a labeled truth table with anomalies of circuit c17 after negating gate z4, with no noise added.
   * ```c17_0noise_out.csv```- the original truth table of circuit c17
 
 2. :file_folder: **Ground_Truth**: Each truth table has a respective file of local ground truth explanations. The folder also includes a global ground truth explanation for each circuit. 
-
   For example:
   * ```c17_modified_z4_nand2_to_and2_ground_truth_0noise.csv``` - a file with the local ground truth explanations for every anomaly in the respective truth table.
   * ```c17_global_explanation.csv``` - a file with the global ground truth explanation for circuit c17.
