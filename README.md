@@ -20,7 +20,7 @@ The dataset "Digital circuits dataset for anomaly detection + ground truth expla
 - 74183
 - 74181
 The dataset includes 2 folders:
-1. **Truth_Tables**: For each circuit we created 4 model based anomalous versions by changing a single gate to its negation. 
+1. :file_folder: **Truth_Tables**: For each circuit we created 4 model based anomalous versions by changing a single gate to its negation. 
 In addition, each anomalous version was padded with a varying amount of attribute noise (2, 4 and 6 noise features). 
 The folder includes a truth table for both the original and the anomalous versions, with noise and without noise. The truth tables serve as binary tabular data.
 Overall, there are 64 anomalous truth tables with labels and 16 original truth tables.
@@ -28,7 +28,7 @@ For example:
   * ```c17_modified_z4_from_nand2_to_and2_0noise_in_labeled.csv``` - a labeled truth table with anomalies of circuit c17 after negating gate z4, with no noise added.
   * ```c17_0noise_out.csv```- the original truth table of circuit c17
 
-2. **Ground_Truth**: Each truth table has a respective file of local ground truth explanations. The folder also includes a global ground truth explanation for each circuit. 
+2. :file_folder: **Ground_Truth**: Each truth table has a respective file of local ground truth explanations. The folder also includes a global ground truth explanation for each circuit. 
 For example:
   * ```c17_modified_z4_nand2_to_and2_ground_truth_0noise.csv``` - a file with the local ground truth explanations for every anomaly in the respective truth table.
   * ```c17_global_explanation.csv``` - a file with the global ground truth explanation for circuit c17.
@@ -53,7 +53,8 @@ The framework, in its current settings, allow detecting anomalies with an autoen
   * ```LIME``` [[3]](#3)
 The local explanations can be evaluated for correctness and robustness using several metrics (including MRR, MAP, R-precision, accuracy etc.), which are calculated by comparing the explanations to the ground truth explnations.
 
-___________________________________________________________________________________________________________________________________________________________________________\
+_____________________________________________________________________________________________________________________________________
+
 
 :receipt: Usage
 ------------------
@@ -68,7 +69,8 @@ ________________________________________________________________________________
 
 Follow the comments in the *ExplainAnomalies* main file for the adjustments that can be done to change any of the above components.
 
-___________________________________________________________________________________________________________________________________________________________________________\
+
+_____________________________________________________________________________________________________________________________________
 
 ## References
 <a id="1">[1]</a> 
