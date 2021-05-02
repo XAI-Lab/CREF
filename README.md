@@ -38,7 +38,7 @@ Overall, there are 64 anomalous truth tables with labels and 16 original truth t
 
 The Truth_Tabels and Ground_Truth files are divided into subfolders of each circuit. 
 
-<br/><br/> 
+<br/>
 
 :detective: Ground truth explanations
 -------
@@ -48,7 +48,7 @@ Such an explanation may be represented as the set of features that led the model
 A **global** ground truth explanation provides an explanation for the entire system's behavior.
 The ground truth explanations can enable the evaluating the correctness and robustness of explanations produced by an explanation method, as proposed by this framework.
 
-<br/><br/> 
+<br/>
 
 :mag_right: Evaluate local explanations
 ------------
@@ -61,10 +61,9 @@ The framework, in its current settings, allow detecting anomalies with an autoen
   
 The local explanations can be evaluated for correctness and robustness using several metrics (including MRR, MAP, R-precision, accuracy etc.), which are calculated by comparing the explanations to the ground truth explnations.
 
-<br/><br/>  
-_____________________________________________________________________________________________________________________________________
 
-<br/><br/>  
+_____________________________________________________________________________________________________________________________________
+<br/>  
 
 :receipt: Usage
 ------------------
@@ -79,7 +78,7 @@ ________________________________________________________________________________
 
 Follow the comments in the *ExplainAnomalies* main file for the adjustments that can be done to change any of the above components.
 
-<br/><br/>
+<br/>
 
 _____________________________________________________________________________________________________________________________________
 
