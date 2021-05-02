@@ -1,6 +1,6 @@
 # Evaluating anomaly explanations using ground truth
 
-**This repository includes python source code for CREF: <font size="+2">C</font size>orrectness and <font size="+2">R</font size>obustness <font size="+2">E</font size>valuation <font size="+2">F</font size>ramework based on ground truth explanations.**
+**This repository includes python source code for CREF: <font size="+8">C</font>orrectness and <font size="+8">R</font>obustness <font size="+8">E</font>valuation <font size="+8">F</font>ramework based on ground truth explanations.**
 
 CREF includes:
 1. A real-world dataset with anomalies, based on ISCAS '85 and 74x series benchmarks [[1]](#1).
