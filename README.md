@@ -15,10 +15,11 @@ ________________________________________________________________________________
 :oil_drum: Dataset
 -------
 The dataset "Digital circuits dataset for anomaly detection + ground truth explanations" was created based on 4 digital circuits from ISCAS '85 and 74x series benchmarks [[1]](#1):
-- C17
-- 74182
-- 74183
-- 74181
+* C17
+* 74182
+* 74183
+* 74181
+
 The dataset includes 2 folders:
 1. :file_folder: **Truth_Tables**: For each circuit we created 4 model based anomalous versions by changing a single gate to its negation. 
 In addition, each anomalous version was padded with a varying amount of attribute noise (2, 4 and 6 noise features). 
