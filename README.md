@@ -37,6 +37,7 @@ Overall, there are 64 anomalous truth tables with labels and 16 original truth t
 The Truth_Tabels and Ground_Truth files are divided into subfolders of each circuit. 
 
 
+
 :detective: Ground truth explanations
 -------
 A **local** ground truth explanation is the reason why a model returned a certain prediction for a specific instance. 
@@ -44,6 +45,7 @@ Such an explanation may be represented as the set of features that led the model
 
 A **global** ground truth explanation provides an explanation for the entire system's behavior.
 The ground truth explanations can enable the evaluating the correctness and robustness of explanations produced by an explanation method, as proposed by this framework.
+
 
 
 :mag_right: Evaluate local explanations
@@ -57,7 +59,9 @@ The framework, in its current settings, allow detecting anomalies with an autoen
   * 
 The local explanations can be evaluated for correctness and robustness using several metrics (including MRR, MAP, R-precision, accuracy etc.), which are calculated by comparing the explanations to the ground truth explnations.
 
+
 _____________________________________________________________________________________________________________________________________
+
 
 
 :receipt: Usage
@@ -72,6 +76,7 @@ ________________________________________________________________________________
 - Use different evluation metrics from the metrics offers in the 'metrics.py' file or add new metrics.
 
 Follow the comments in the *ExplainAnomalies* main file for the adjustments that can be done to change any of the above components.
+
 
 
 _____________________________________________________________________________________________________________________________________
