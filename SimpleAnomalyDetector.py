@@ -7,11 +7,13 @@ class SimpleAnomalyDetector(ClassifierMixin):
     """
     This class represent the simply anomaly detector used in our method.
     It is an autoencoder based model inspired by Antwarg (2019):
-        @article{antwarg2019explaining,
+        @article{antwarg2021explaining,
         title={Explaining anomalies detected by autoencoders using SHAP},
         author={Antwarg, Liat and Miller, Ronnie Mindlin and Shapira, Bracha and Rokach, Lior},
-        journal={arXiv preprint arXiv:1903.02407},
-        year={2019}
+        journal={Expert Systems with Applications},
+        pages={115736},
+        year={2021},
+        publisher={Elsevier}
         }
 
     """
