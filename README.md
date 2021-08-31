@@ -62,7 +62,7 @@ The local explanations can be evaluated for correctness and robustness using the
     - Mean R-Precision
     - Accuracy 
    * Robustness:
-    - ELA
+      ELA
     
  All metrics are calculated by comparing the explanations to the ground truth explnations.
 
