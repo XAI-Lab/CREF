@@ -30,7 +30,8 @@ class ExplainCircuitRecords:
 
     background_proportion (float): the proportion of data to assign to the background set
     """
-
+    
+    # Set the random seed used for randomly selecting a background set with the required proportion
     np.random.seed(27)
 
     def __init__(self, anomaly_detector, in_out_flag=True, amount_of_noise=0, background_proportion=1.0):
