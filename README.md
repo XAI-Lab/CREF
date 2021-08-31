@@ -57,12 +57,12 @@ The framework, in its current settings, allow detecting anomalies with an autoen
   
 The local explanations can be evaluated for correctness and robustness using the following metrics:
   * Correctness:
-    1. Mean Reciprocal Rank (MRR)
-    2. Mean Average Precision (MAP)
-    3. Mean R-Precision
-    4. Accuracy 
+    - Mean Reciprocal Rank (MRR)
+    - Mean Average Precision (MAP)
+    - Mean R-Precision
+    - Accuracy 
    * Robustness:
-    1. ELA
+    - ELA
  All metrics are calculated by comparing the explanations to the ground truth explnations.
 
 
