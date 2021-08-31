@@ -1,11 +1,11 @@
 # Evaluating anomaly explanations using ground truth
 
-**This repository includes python source code for CREF: **C**orrectness and **R**obustness **E**valuation **F**ramework based on ground truth explanations.**
+**This repository includes python source code for CREM: **C**orrectness and **R**obustness **E**valuation **M**ethodology based on ground truth explanations.**
 
-CREF includes:
+CREM includes:
 1. A real-world dataset with anomalies, based on ISCAS '85 and 74x series benchmarks [[1]](#1).
-2. Ground truth global and local explanations.
-3. Source code for the correctness and robustness evaluation framework.
+2. Ground truth local explanations.
+3. Source code for the correctness and robustness evaluation methodolog for local explanations.
 
 _____________________________________________________________________________________________________________________________________
 
@@ -31,10 +31,9 @@ Overall, there are 64 anomalous truth tables with labels and 16 original truth t
 
 <br/>
 
-2. :file_folder: **Ground_Truth**: Each truth table has a respective file of local ground truth explanations. The folder also includes a global ground truth explanation for each circuit. 
+2. :file_folder: **Ground_Truth**: Each truth table has a respective file of local ground truth explanations. 
   For example:
   * ```c17_modified_z4_nand2_to_and2_ground_truth_0noise.csv``` - a file with the local ground truth explanations for every anomaly in the respective truth table.
-  * ```c17_global_explanation.csv``` - a file with the global ground truth explanation for circuit c17.
 
 The Truth_Tabels and Ground_Truth files are divided into subfolders of each circuit. 
 
@@ -45,21 +44,26 @@ The Truth_Tabels and Ground_Truth files are divided into subfolders of each circ
 A **local** ground truth explanation is the reason why a model returned a certain prediction for a specific instance. 
 Such an explanation may be represented as the set of features that led the model to make that prediction. 
 
-A **global** ground truth explanation provides an explanation for the entire system's behavior.
-The ground truth explanations can enable the evaluating the correctness and robustness of explanations produced by an explanation method, as proposed by this framework.
-
 <br/>
 
 :mag_right: Evaluate local explanations
 ------------
-The proposed ground truth based framework aims to enable users to evaluate explanations produced by explanation methods using correctness and robustness metrics.
+The proposed ground truth based evaluation methodolog aims to enable users to evaluate explanations produced by explanation methods using correctness and robustness metrics.
 The framework, in its current settings, allow detecting anomalies with an autoencoder based anomaly detector, and then explain the anomalies using three common model-agnostic explanation methods:
 
   * ```Kernel SHAP``` [[2]](#2)
   * ```Sampling SHAP``` [[2]](#2)
   * ```LIME``` [[3]](#3)
   
-The local explanations can be evaluated for correctness and robustness using several metrics (including MRR, MAP, R-precision, accuracy etc.), which are calculated by comparing the explanations to the ground truth explnations.
+The local explanations can be evaluated for correctness and robustness using the following metrics:
+  * Correctness:
+    1. Mean Reciprocal Rank (MRR)
+    2. Mean Average Precision (MAP)
+    3. Mean R-Precision
+    4. Accuracy 
+   * Robustness:
+    1. ELA
+ All metrics are calculated by comparing the explanations to the ground truth explnations.
 
 
 <br/>  
