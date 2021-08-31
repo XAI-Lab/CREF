@@ -63,6 +63,7 @@ The local explanations can be evaluated for correctness and robustness using the
     - Accuracy 
    * Robustness:
     - ELA
+    
  All metrics are calculated by comparing the explanations to the ground truth explnations.
 
 
