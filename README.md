@@ -17,7 +17,7 @@ ________________________________________________________________________________
 The dataset "Digital circuits dataset for anomaly detection + ground truth explanations" was created based on 4 digital circuits from ISCAS '85 and 74x series benchmarks [[1]](#1):
 * C17
 * 74182
-* 74183
+* 74283
 * 74181
 
 The dataset includes 2 folders:
