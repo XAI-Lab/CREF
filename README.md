@@ -5,7 +5,7 @@
 CREM includes:
 1. A real-world dataset with anomalies, based on ISCAS '85 and 74x series benchmarks [[1]](#1).
 2. Ground truth local explanations.
-3. Source code for the correctness and robustness evaluation methodolog for local explanations.
+3. Source code for the correctness and robustness evaluation methodology for local explanations.
 
 _____________________________________________________________________________________________________________________________________
 
