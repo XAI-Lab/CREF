@@ -31,7 +31,7 @@ class SamplingShap(ExplanationMethod):
             records_to_explain: The set of records or a single record to explain
             nsamples: "auto" or int. Number of times to re-evaluate the model when explaining each prediction. M
             ore samples lead to lower variance estimates of the SHAP values. The "auto" setting uses
-            `nsamples = 2 * X.shape[1] + 2048`. Default is set to 500.
+            `nsamples = 2 * X.shape[1] + 2048`. Default value here is set to 500.
         Return:
             SHAP values for every record
         """
