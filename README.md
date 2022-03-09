@@ -92,7 +92,7 @@ The ISCAS '85 benchmark circuits and netlist format directory:
 [Original benchmark](https://people.engr.ncsu.edu/brglez/CBL/benchmarks/ISCAS85)
 
 <a id="2">[2]</a> 
-Lundberg, Scott, and Su-In Lee. "A unified approach to interpreting model predictions." arXiv preprint arXiv:1705.07874 (2017).
+Lundberg, Scott M., and Su-In Lee. "A unified approach to interpreting model predictions." Advances in neural information processing systems 30 (2017).
 
 <a id="3">[3]</a> 
 Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin. "" Why should i trust you?" Explaining the predictions of any classifier." Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining. (2016).
