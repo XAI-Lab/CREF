@@ -14,7 +14,7 @@ ________________________________________________________________________________
 
 :oil_drum: Dataset
 -------
-The dataset "Digital circuits dataset for anomaly detection + ground truth explanations" was created based on 4 digital circuits from ISCAS '85 and 74x series benchmarks [[1]](#1):
+The dataset "Digital circuits dataset for anomaly detection + ground truth explanations" was created based on 4 digital circuits from the ISCAS '85 and 74x series benchmarks [[1]](#1):
 * C17
 * 74182
 * 74283
@@ -49,7 +49,7 @@ Such an explanation may be represented as the set of features that led the model
 :mag_right: Evaluate local explanations
 ------------
 The proposed ground truth based evaluation methodolog aims to enable users to evaluate explanations produced by explanation methods using correctness and robustness metrics.
-The framework, in its current settings, allow detecting anomalies with an autoencoder based anomaly detector, and then explain the anomalies using three common model-agnostic explanation methods:
+The current settings allow detecting anomalies with an autoencoder based anomaly detector, and then explain the anomalies using three common model-agnostic explanation methods:
 
   * ```Kernel SHAP``` [[2]](#2)
   * ```Sampling SHAP``` [[2]](#2)
