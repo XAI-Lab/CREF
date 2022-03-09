@@ -1,6 +1,7 @@
 import numpy as np
 import numba as nb
 
+# Evaluation metrics avaiable are: MeanRPrecision, MAP, MRR, Accuracy
 
 def calculate_precision_at_k(y_pred, y_true, k):
     """
