@@ -33,9 +33,9 @@ class SimpleAnomalyDetector(ClassifierMixin):
             truth_table (dataFrame): original truth table of the circuit
             truth_table_modified (dataFrame): name of anomalous sys file to read
         """
-        self.truth_table = truth_table
-        self.truth_table_modified = truth_table_modified
-        self.input_idx = len([name for name in self.truth_table_modified.columns.values if name.startswith('i')])
+        self.truth_table = truth_table # original
+        self.truth_table_modified = truth_table_modified # anomalous
+        self.input_idx = len([name for name in self.truth_table_modified.columns.values if name.startswith('i')]) # All inputs start with an 'i' 
         self.truthTableDict = {}
         for idx in range(self.truth_table_modified.shape[0]):
             true_record_input = str(self.truth_table_modified.iloc[idx, :self.input_idx].values)
